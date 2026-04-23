@@ -1,3 +1,59 @@
 <resources>
     <string name="app_name">LAB2_20216352</string>
+    <string name="bienvenida">!Bienvenido a mi\nInventario movil!</string>
+    <string name="hint_codigo_pucp">Codigo PUCP</string>
+    <string name="alumno_info">[20216352]\n[Gonzalo Álvarez]</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="error_codigo_requerido">Ingrese su codigo PUCP</string>
+    <string name="error_campo_requerido">Este campo es obligatorio</string>
+    <string name="error_estado_requerido">Seleccione un estado</string>
+    <string name="error_sin_internet">Error: no hay conexion a internet</string>
+
+    <string name="titulo_lista">Inventario de equipos</string>
+    <string name="titulo_registrar">Registrar equipo</string>
+    <string name="titulo_actualizar">Actualizar equipo</string>
+    <string name="no_hay_registros">No hay registros disponibles</string>
+
+    <string name="hint_codigo">Codigo</string>
+    <string name="hint_nombre">Nombre del equipo</string>
+    <string name="hint_tipo">Tipo de equipo</string>
+    <string name="hint_observaciones">Observaciones</string>
+    <string name="estado">Estado</string>
+
+    <string name="operativo">Operativo</string>
+    <string name="mantenimiento">En mantenimiento</string>
+    <string name="fuera_servicio">Fuera de servicio</string>
+
+    <string name="filtro_tipo">Filtrar por tipo</string>
+    <string name="filtro_estado">Filtrar por estado</string>
+    <string name="todos">Todos</string>
+
+    <string name="accion_guardar">Guardar</string>
+    <string name="accion_editar">Editar</string>
+    <string name="accion_eliminar">Eliminar</string>
+    <string name="accion_refrescar">Refrescar</string>
+
+    <string name="confirmar_titulo">Esta seguro que desea registrar?</string>
+    <string name="confirmar_actualizar_titulo">Esta seguro que desea actualizar?</string>
+    <string name="confirmar_eliminar_titulo">Esta seguro que desea eliminar?</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="aceptar">Aceptar</string>
+
+    <string name="msg_registrado">Equipo registrado correctamente</string>
+    <string name="msg_actualizado">Equipo actualizado correctamente</string>
+    <string name="msg_eliminado">Equipo eliminado correctamente</string>
+    <string name="msg_codigo_duplicado">El codigo ya existe</string>
+
+    <string name="label_codigo">Codigo: %1$s</string>
+    <string name="label_nombre">Nombre del equipo: %1$s</string>
+    <string name="label_tipo">Tipo de equipo: %1$s</string>
+    <string name="label_estado">Estado: %1$s</string>
+
+    <string-array name="tipos_equipo">
+        <item>Multimetro</item>
+        <item>OTDR</item>
+        <item>Medidor de potencia</item>
+        <item>Analizador de espectro</item>
+        <item>Pinza amperimetrica</item>
+    </string-array>
 </resources>
